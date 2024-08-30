@@ -1,0 +1,761 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+.navbar-section {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  width: 100%;
+  height: 120px;
+  box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0),
+    0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01),
+    0px 20px 13px 0px rgba(0, 0, 0, 0.01),
+    0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01),
+    0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+}
+.navbar-inner-section {
+  width: 1400px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-option-section {
+  padding: 0px 64px 0px 0px;
+}
+
+.navbar-option-section ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+.navbar-option-section a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+
+.lets-talk-btn {
+  width: 140px;
+  height: 45px;
+  background: #0d6efd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.lets-talk-btn a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.main-container-section {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.heading-section {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+padding: 50px 0px;
+  width: 100%;
+}
+
+.heading {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 550;
+}
+.heading-paragraph {
+  font-size: 20px;
+  color: #fff;
+  padding: 15px 0px 0px 0px;
+}
+
+.heading-img {
+  width: 100%;
+  height: auto;
+}
+.main-container {
+  width: 1300px;
+  margin: 0 auto;
+}
+.play-music-left-section {
+  padding: 0px 0px 0px 75px;
+}
+.play-music-right-section {
+  padding: 0px 0px 0px 120px;
+}
+.play-music-section {
+  display: flex;
+  justify-self: center;
+  padding: 100px 0px 0px 0px;
+}
+.blue-img {
+  max-width: 556px;
+  width: 100%;
+}
+.heading-container {
+  font-size: 40px;
+  color: #000;
+  font-weight: 500;
+  width: 57%;
+}
+
+.box-1 {
+  max-width: 450px;
+  width: 100%;
+  height: 112px;
+  display: flex;
+  border: 1px solid #c8c8c8;
+  border-radius: 10px;
+  margin: 40px 0px 25px 0px;
+}
+.box-2 {
+  max-width: 450px;
+  width: 100%;
+  height: 112px;
+  display: flex;
+  border: 1px solid #c8c8c8;
+  border-radius: 10px;
+}
+.box-img {
+  width: 30px;
+  padding: 20px 35px 0px 20px;
+}
+.box-right {
+  padding: 20px 0px 0px 0px;
+}
+.box-heading {
+  font-size: 22px;
+  color: #000;
+  font-weight: 400;
+}
+
+.box-heading2 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+  padding: 10px 0px 0px 0px;
+}
+
+.download-btn {
+  background: #0d6efd;
+  max-width: 135px;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  margin: 25px 0px 0px 0px;
+}
+
+.download-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.download-listen-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px 0px 0px 0px;
+}
+.download-listen-left-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.download-section-paragraph {
+  font-size: 20px;
+  color: #757575;
+  width: 90%;
+}
+
+.download-btn2 {
+  background: #ffdd0f;
+  max-width: 135px;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  margin: 25px 0px 0px 0px;
+}
+
+.download-btn2 a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+}
+.yellow-img {
+  max-width: 530px;
+  width: 100%;
+}
+.manage-your-lyric-section {
+  display: flex;
+  padding: 150px 0px 0px 40px;
+  justify-content: space-between;
+}
+
+.red-img {
+  max-width: 550px;
+  width: 100%;
+}
+.manage-your-lyric-right-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 122px;
+  gap: 25px;
+}
+.manage-your-lyric-heading-container {
+  font-size: 40px;
+  color: #000;
+  font-weight: 500;
+  width: 70%;
+}
+
+.manage-your-lyric-section-paragraph {
+  font-size: 20px;
+  color: #757575;
+  width: 90%;
+}
+.tick-section {
+  display: flex;
+  align-items: center;
+}
+.tick-img {
+  width: 25px;
+}
+.tick-title {
+  font-size: 20px;
+  color: #686868;
+  padding: 0px 0px 0px 20px;
+}
+
+.download-btn3 {
+  background: #ff0007;
+  max-width: 135px;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  /* margin: 25px 0px 0px 0px; */
+}
+
+.download-btn3 a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.get-app-section {
+  text-align: center;
+  padding: 100px 0px 0px 0px;
+}
+.arrow-img {
+  max-width: 40px;
+  width: 100%;
+}
+.get-app-heading {
+  font-size: 50px;
+  color: #000;
+  font-weight: 500;
+  padding: 30px 0px 30px 0px;
+}
+.get-app-download-btn {
+  background: #0d6efd;
+  max-width: 135px;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.get-app-download-btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+.big-img-section {
+  position: relative;
+  background: blue;
+  margin: 100px 0px 0px 0px;
+}
+.big-img {
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+.big-img-heading {
+  width: 60%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: #ffffff;
+  position: absolute;
+  bottom: 130px;
+  left: 276px;
+}
+.copyright-section {
+  width: 100%;
+  padding: 150px 0px 50px 0px;
+  text-align: center;
+}
+.copyright-section a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  /* body { */
+  /* width: auto; */
+  /* background-color: rgb(255, 255, 255); */
+  /* } */
+
+  .main-container {
+    width: 100%;
+  }
+  .navbar-option-section {
+    display: none;
+  }
+
+  .navbar-inner-section {
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  .heading-img {
+    object-fit: cover;
+    height: 400px;
+  }
+  .heading-section {
+    /* padding: 75px 0px 0px 10px; */
+    padding: 50px 0px;
+  }
+
+  .heading {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  .heading-paragraph {
+    color: #ffffff;
+  }
+  .play-music-section {
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+
+  .play-music-left-section {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .blue-img {
+    max-width: 350px;
+    width: 100%;
+  }
+  .small-img {
+    padding: 0;
+  }
+  .play-music-right-section {
+    padding: 0;
+  }
+  .play-music-right-section a {
+    display: flex;
+  }
+  .small-img {
+    margin: 30px auto;
+  }
+  .heading-container {
+    font-size: 22px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .box-1 {
+    max-width: 350px;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .box-2 {
+    max-width: 350px;
+    width: 100%;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .box-img {
+    padding: 0;
+  }
+  .box-right {
+    padding: 0;
+  }
+  .download-btn {
+    /* padding: 15px 115px; */
+    margin: 15px auto;
+  }
+  .download-listen-section {
+    flex-direction: column-reverse;
+    align-items: normal;
+  }
+  .download-section-paragraph {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .download-btn2 {
+    /* padding: 15px 115px; */
+    margin: 15px auto;
+  }
+  .download-listen-right-section {
+    margin: 0 auto;
+  }
+  .download-listen-left-section {
+    margin: 0 auto;
+  }
+  .download-listen-left-section a {
+    display: flex;
+  }
+  .yellow-img {
+    max-width: 330px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .manage-your-lyric-section {
+    flex-direction: column;
+    padding: 100px 0;
+  }
+  .red-img {
+    max-width: 350px;
+    width: 100%;
+    padding: 0;
+  }
+  .manage-your-lyric-left-section {
+    margin: 0 auto;
+  }
+  .manage-your-lyric-right-section {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .manage-your-lyric-right-section a {
+    display: flex;
+  }
+  .manage-your-lyric-heading-container {
+    font-size: 25px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .manage-your-lyric-section-paragraph {
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .tick-section {
+    padding: 0;
+    justify-content: center;
+  }
+  .tick-img {
+    width: 20px;
+  }
+  .tick-title {
+    font-size: 15px;
+  }
+  .download-btn3 {
+    /* padding: 15px 115px; */
+    margin: 15px auto;
+  }
+  .big-img-section {
+    padding: 0px 0px 0px 0px;
+  }
+  .big-img {
+    object-fit: cover;
+    height: 350px;
+  }
+  .big-img-heading {
+    font-size: 30px;
+    left: 55px;
+    width: 80%;
+    bottom: 117px;
+  }
+  .get-app-section {
+    padding: 40px 0px 0px 0px;
+  }
+  .get-app-heading {
+    font-size: 30px;
+  }
+  .get-app-download-btn {
+    /* padding: 15px 115px; */
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .main-container {
+    max-width: 1024px;
+    width: 100%;
+  }
+  .navbar-inner-section {
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .navbar-option-section {
+    padding: 0px 31px 0px 0px;
+  }
+  .navbar-option-section a {
+    font-size: 14px;
+  }
+  .heading-section {
+    padding: 50px 0px;
+  }
+  .heading {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 550;
+}
+  .heading-paragraph {
+    padding: 30px;
+  }
+
+  .heading-img {
+    object-fit: cover;
+    height: 400px;
+  }
+  .play-music-section {
+    flex-direction: column;
+  }
+  .play-music-left-section {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .play-music-right-section {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .play-music-right-section a {
+    display: flex;
+  }
+  .small-img {
+    margin: 30px auto;
+  }
+  .heading-container {
+    width: 100%;
+    text-align: center;
+  }
+  .box-1 {
+    margin: 20px auto;
+  }
+  .box-2 {
+    margin: 20px auto;
+  }
+  .download-btn {
+    margin: 0 auto;
+  }
+  .download-listen-section {
+    flex-direction: column-reverse;
+  }
+  .download-listen-left-section {
+    width: 100%;
+  }
+  .download-listen-left-section a {
+    display: flex;
+  }
+  .download-section-paragraph {
+    max-width: 100%;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .download-btn2 {
+    margin: 0 auto;
+  }
+  .manage-your-lyric-section {
+    flex-direction: column;
+    padding: 100px 0;
+  }
+  .manage-your-lyric-left-section {
+    margin: 0 auto;
+  }
+  .manage-your-lyric-right-section {
+    width: 100%;
+    padding: 0;
+  }
+  .manage-your-lyric-right-section a {
+    display: flex;
+  }
+  .manage-your-lyric-heading-container {
+    margin: 0 auto;
+  }
+  .manage-your-lyric-section-paragraph {
+    max-width: 100%;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .tick-section {
+    margin: 0 auto;
+  }
+  .download-btn3 {
+    margin: 0 auto;
+  }
+  .big-img-heading {
+    bottom: 82px;
+    max-width: 100%;
+    width: 80%;
+    left: 82px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1025px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  .main-container {
+    max-width: 1300px;
+    width: 100%;
+  }
+  .navbar-inner-section {
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+  .play-music-right-section a {
+    display: flex;
+  }
+  .small-img {
+    margin: 30px auto;
+  }
+  .navbar-option-section {
+    padding: 0;
+  }
+  .heading-section {
+    padding: 50px 0px;
+  }
+  .play-music-section {
+    flex-direction: column;
+  }
+
+  .play-music-left-section {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .play-music-right-section {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .heading-container {
+    width: 100%;
+    text-align: center;
+  }
+  .box-1 {
+    margin: 20px auto;
+  }
+
+  .box-2 {
+    margin: 20px auto;
+  }
+  .download-btn {
+    margin: 0 auto;
+  }
+  .download-listen-section {
+    flex-direction: column-reverse;
+  }
+  .download-section-paragraph {
+    max-width: 100%;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .download-listen-left-section a {
+    display: flex;
+  }
+  .download-btn2 {
+    margin: 0 auto;
+  }
+
+  .manage-your-lyric-section {
+    flex-direction: column;
+  }
+  .manage-your-lyric-left-section {
+    margin: 0 auto;
+  }
+  .manage-your-lyric-right-section {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .manage-your-lyric-right-section a {
+    display: flex;
+  }
+  .manage-your-lyric-heading-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .manage-your-lyric-section-paragraph {
+    max-width: 100%;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .tick-section {
+    margin: 0 auto;
+  }
+  .download-btn3 {
+    margin: 0 auto;
+  }
+
+  .big-img-heading {
+    max-width: 100%;
+    width: 80%;
+    left: 92px;
+    bottom: 72px;
+  }
+}
